@@ -31,5 +31,5 @@ console.log(conversation());
 
 function futureAge(name, currentAge) {
     const age = currentAge + 5;
-    console.log("Hi, " + name + " You will be " + age + " years old in 5 years");
+    return "Hi, " + name + " You will be " + age + " years old in 5 years";
 }
