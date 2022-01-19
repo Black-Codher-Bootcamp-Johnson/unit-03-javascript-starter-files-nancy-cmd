@@ -26,3 +26,10 @@ function conversation() {
     console.log('Goodbye');
 }
 console.log(conversation());
+
+//task 3 adding parameters to the function
+
+function futureAge(name, currentAge) {
+    const age = currentAge + 5;
+    console.log("Hi, " + name + " You will be " + age + " years old in 5 years");
+}
