@@ -28,7 +28,7 @@ let personD = {
 
 
 function biography(person) {
-    return c
+    return 'Hi my name is ' + person.name + ' i am ' + person.age + ' years old, i live in ' + person.location + ' and i like ' + person.likes +'.'
 }
 console.log(biography(personA));
 console.log(biography(personB));
@@ -64,7 +64,16 @@ console.log("Division: x + y " + division);
 console.log(x % y) // modulus
 console.log(x ** y) // exponentiation or the power of 
 
+//Task 3
 
+const currentAge = 20;
+const drivingAge = 18;
+
+if (currentAge < drivingAge) {
+    console.log('Give me those keys!! You cannot drive yet!')
+} else {
+    console.log('Yay! You are old enough to drive!')
+}
 
 
 
