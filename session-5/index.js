@@ -1,5 +1,5 @@
 //task 1
-function getGrade(total) {
+/*function getGrade(total) {
     if (total > 90) {
         console.log('Yay, you got an A+!');
     } else if(total > 80 && total <= 90) {
@@ -18,4 +18,30 @@ function getGrade(total) {
         console.log('YOU FAILED!');
     }
 }
-getGrade(51);
+getGrade(51);*/
+
+function getGrade(total) {
+switch(true) {
+    case  total > 90:
+    console.log('Yay, you got an A+!');
+    break;
+    case total > 80:
+    console.log('You got an A');
+    break;
+    case  total > 70:
+    console.log('you got a B');
+    break;
+    case  total > 60:
+    console.log('you got a C');
+    break;
+    case total > 50:
+    console.log('you got an D!');
+    break;
+    case total > 40:
+    console.log(' you got an E!');
+    break;
+    default:
+        console.log('You failed');
+}
+}
+getGrade(88);
