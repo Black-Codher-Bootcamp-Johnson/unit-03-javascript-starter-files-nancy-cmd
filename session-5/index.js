@@ -14,7 +14,7 @@ function getGrade(total) {
         console.log('You got an E, less Netflix more Books!');
     } else if (total > 30 && total <= 40 ) {
         console.log('E! shocking!');
-    } else if (total < 30) {
+    } else  {
         console.log('YOU FAILED!');
     }
 }
