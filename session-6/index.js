@@ -10,12 +10,17 @@ while (count < 10) {
 }
 
 
+/*let sales = 10;
+
+while (sales <= 100) {
+  sales++;
+  console.log('we sold ' + sales);
+}*/
 
 
-
-
-
-
+for (let sales = 10; sales <= 100; sales++) {
+  console.log('we sold ' + sales);
+}
 
 
 
@@ -24,16 +29,22 @@ while (count < 10) {
 
 // ****************************************************TASK 2****************************************************
 
-for (let count = 1; count < 10; count++) {
+for (let count = 1; count <= 10; count++) {
   const randomNumber = Math.round(Math.random() * 10);
   console.log('this is count ' + randomNumber);
 }
 
 
+/*
+for (let number = 1; number <= 10; number++) {
+  console.log('for this number ' + number)
+}*/
 
-
-
-
+let number = 1;
+while (number <= 10) {
+  number++;
+  console.log('while this number ;) ' + number)
+}
 
 
 
