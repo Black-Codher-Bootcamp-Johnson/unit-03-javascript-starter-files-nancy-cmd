@@ -1,11 +1,12 @@
 // ****************************************************TASK 1****************************************************
 
+const animals = ['dog','lion', 'tiger', 'lima', 'wolf'];
 
+/*animals.push('cat');//the push adds an element to the end of the array
+animals.unshift('zebra');// unshift adds an element to the beginnning of the array*/
+animals.pop(); // pop method removes the last element from an array and returns that element, this method changes the length of the array.
 
-
-
-
-
+console.log(animals);
 
 
 
