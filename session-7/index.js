@@ -16,16 +16,19 @@ console.log(animals);
 
 
 // ****************************************************TASK 2****************************************************
+const names = ['James', 'Peter', 'Katnis', 'John', 'Sally', 'Jane', 'April', 'Meredith', 'Derek', 'Avery']
+names.sort();
+console.log(names);
+
+names.reverse();
+console.log(names);
 
 
 
+const bonus = [5, 325, 67, 100000, 150]
 
-
-
-
-
-
-
+bonus.sort();
+console.log(bonus);//starts with 10000 because it looks at the first number and determines which number comes first in numerical order.
 
 // ****************************************************TASK 3****************************************************
 
